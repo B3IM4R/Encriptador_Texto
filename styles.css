@@ -1,0 +1,128 @@
+* {
+    background: lightskyblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+
+.logo {
+    width: 8%;
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+main {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+}
+
+.text-area {
+    width: 680px;
+    height: 420px;
+    padding: 2px;
+    color: #4C5958;
+    margin-top: 60px;
+    text-transform: lowercase;
+    border: none;
+    resize: none;
+}
+
+::placeholder { color: #4C5958;}
+    .text-area:focus {
+        outline: none;
+    }
+
+.message {
+    padding: 25px;
+    height: 610px;
+    background: white;
+    background-image: url("images/NotFound.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 130px;
+    background-size: 300px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 12px 32px -8px rgba(0, 0, 0, 0.50);
+    color: #4C5958;
+    margin-top: 8px;
+    margin-left: 105px;
+    padding-left: 23px;
+    position: absolute;
+    resize: none;
+}
+
+.message:focus {
+    outline: none;
+}
+
+.cont-buttons {
+    padding-top: 10px;
+    display: flex;
+    top: 600px;
+}
+
+.btn-encrypt {
+    height: 67px;
+    width: 328px;
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.btn-decrypt {
+    height: 67px;
+    width: 328px;
+    background: lightgrey;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.copy {
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 134px;
+    margin-top: 573px;
+    position: absolute;
+    width: 328px;
+}
+
+.not-found {
+    color: #4C5958;
+    font-size: 25px;
+    font-weight: bold;
+    width: 328px;
+    margin-left: 134px;
+    margin-top: 440px;
+    position: absolute;
+    background: none;
+    text-align: center;
+}
+
+.info {
+    padding-top: 25px;
+    color: #4C5958;
+    font-size: 13px;
+}
+
+.text {
+    width: 20%;
+    color: #4C5958;
+    font-size: 18px;
+    background: none;
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 105px;
+    text-align: center;
+}
